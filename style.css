@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: 'New Tegomin', serif;
+}
+#color{
+    color: darkcyan;
+}
+#color2{
+    color: rgb(255, 115, 0);
+}
+.combine{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+.combine img{
+    margin-top: 10px;
+    width: 95%;
+}
+.topper{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.button-modify{
+    text-decoration: none;
+    background-color: rgb(47, 102, 47);
+    border: solid darkslategray 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    color: floralwhite;
+}
