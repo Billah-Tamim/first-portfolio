@@ -3,31 +3,41 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'New Tegomin', serif;
+    
 }
-#color{
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: darkred;
+}
+#color, #c5{
     color: darkcyan;
 }
-#color2{
+#c1,#c3,#c6{
     color: rgb(255, 115, 0);
+}
+#c2, #c7{
+    color: rgb(255, 0, 43);
 }
 .combine{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-right: 2%;
+    padding: 2%;
 }
 .combine img{
-    margin-top: 10px;
+    
     width: 95%;
 }
 .topper{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+    
 }
 section{
-    height: 500px;
+    height: 600px;
 }
 .button-modify{
     text-decoration: none;
@@ -37,4 +47,28 @@ section{
     font-size: 20px;
     padding: 5px;
     color: floralwhite;
+}
+.mid{
+    background-image: url(image/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.box{
+    box-shadow: 10px 10px 40px grey;
+    background-color: white;
+}
+.lowar{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#bor1{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue , rgb(42, 31, 30));
+    border-image-slice: 1;
+}
+#bor2{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, salmon, rgb(255, 230, 3));
+    border-image-slice: 1;
 }
